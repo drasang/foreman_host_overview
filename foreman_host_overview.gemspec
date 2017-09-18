@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
     "screenshots/properties.png",
     "screenshots/settings.png"
   ]
-  s.homepage = "https://github.com/sfu-rcg/foreman_host_overview.git"
+  s.homepage = "https://github.com/drasang/foreman_host_overview.git"
   s.licenses = ["GPL-3"]
   s.required_ruby_version = Gem::Requirement.new(">= 2.0.0")
   s.rubygems_version = "2.2.2"
