@@ -16,9 +16,9 @@ require 'jeweler'
 
 Jeweler::Tasks.new do |gem|
   gem.name = 'foreman_host_overview'
-  gem.authors = ["Riley Shott"]
-  gem.email = 'rshott@sfu.ca'
-  gem.homepage = "https://github.com/sfu-rcg/foreman_host_overview.git"
+  gem.authors = ["Riley Shott","Tobias Lensing"]
+  gem.email = 'tobias.l@gmx.de'
+  gem.homepage = "https://github.com/drasang/foreman_host_overview.git"
   gem.license = 'GPL-3'
   gem.summary = %Q{Modifies the properties table for all hosts in the Foreman}
   gem.description = %Q{Extends the properties table for a host to include VNC & RDP links, as well as the host's certificate name}
