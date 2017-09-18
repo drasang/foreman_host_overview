@@ -10,10 +10,10 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
-  s.authors = ["Riley Shott"]
+  s.authors = ["Riley Shott","Tobias Lensing"]
   s.date = "2014-11-26"
   s.description = "Extends the properties table for a host to include VNC & RDP links, as well as the host's certificate name"
-  s.email = "rshott@sfu.ca"
+  s.email = "tobias.l@gmx.de"
   s.extra_rdoc_files = [
     "LICENSE",
     "README.md"
