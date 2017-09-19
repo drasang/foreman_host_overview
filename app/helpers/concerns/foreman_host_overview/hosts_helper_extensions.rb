@@ -14,7 +14,7 @@ module ForemanHostOverview
       if connect_addr
         links = {
           'VNC' => "vnc://#{connect_addr}",
-          'SSH' => "ssh://#{connect_addr}",
+          'SSH' => "ssh://root@#{connect_addr}",
           'RDP' => "rdp://#{connect_addr}"
         }
         # If host.os returns nil, we can't effectively determine what OS the machine is
